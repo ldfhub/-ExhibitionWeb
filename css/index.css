@@ -53,6 +53,8 @@ header .header_banner{
 	background-size: cover;
 	background-image: url(../img/banner.png);
 }
+/* banner end */
+/* header-css end*/
 #main_content .cloud_font{
 	height: 56px;
 	padding-top: 38px;
@@ -107,7 +109,102 @@ header .header_banner{
 #main_content .cloud_room{
 	margin-top: 40px;
 	height: 484px;
-	background-color: #ccc;
 }
-/* banner end */
-/* header-css end*/
+#main_content .cloud_room ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#main_content .cloud_room ul li{
+	list-style: none;
+	width: 392px;
+	height: 235px;
+	background-position: center;
+	background-size: cover;
+}
+#main_content .cloud_room ul li:nth-child(1){
+	background-image: url(../img/一号馆.png);
+}
+#main_content .cloud_room ul li:nth-child(2){
+	background-image: url(../img/二号馆.png);
+}
+/* #main_content .cloud_room ul li:nth-of-type(3+n){
+	margin-top: 15px;
+} */
+#main_content .cloud_room ul li:nth-child(3){
+	background-image: url(../img/三号馆.png);
+}
+#main_content .cloud_room ul li:nth-child(4){
+	background-image: url(../img/四号馆.png);
+	margin-top: 14px;
+}
+#main_content .cloud_room ul li:nth-child(5){
+	background-image: url(../img/五号馆.png);
+	margin-top: 14px;
+}
+#main_content .cloud_room ul li:nth-child(6){
+	background-image: url(../img/六号馆.png);
+	margin-top: 14px;
+}
+/*        热门展览--main-botom          */
+#main_bottom{
+	width: 100%;
+	height: auto;
+	background-color: #f3f4f8;
+	padding-top: 38px;
+}
+#hot_exhibition{
+	width: 1160px;
+	margin: 0 auto;
+	height: auto;
+}
+#hot_exhibition .title{
+	width: 100%;
+	height: 46px;
+	font-size: 24px;
+}
+#hot_exhibition .hot_list{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#hot_exhibition .hot_list .bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#hot_exhibition .hot_list .bar div{
+	width: 227px;
+	height: 194px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffff;
+	margin-top: 7px;
+}
+#hot_exhibition .hot_list .bar .country_symbol{
+	display: block;
+	font-size: 14px;
+}
+#hot_exhibition .hot_list .bar .work{
+	display: block;
+	font-size: 14px;
+	color: #a1a1a1;
+}
+#cooperate_brand{
+	height: 163px;
+}
+#main_bottom .cooperate{
+	margin-top: 38px;
+	height: 56px;
+	font-size: 24px;
+}
+#cooperate_brand .brand ul{
+	display: flex;
+	justify-content: space-between;
+}
+#cooperate_brand .brand ul li{
+	list-style: none;
+}
+/* 新闻资讯 */
