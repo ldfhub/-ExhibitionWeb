@@ -89,70 +89,82 @@ header .header_nav ul li:hover ul{
 header .header_banner{
 	width: 100%;
 	height: 200px;
-	background-image: url(../img/banner.png);
+	background-image: url(../img/n1.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 /* banner end */
-/* section start */	
+/* section start */
 section{
 	background-color: #f3f4f8;
-	padding-top: 40px;
 }
-section ul li{
-	width: 924px;
-	height: 131px;
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 16px;
-	background-color: #FFFFFF;
+section .breadcrumb{
+	width: 100%;
+	height: 92px;
+	line-height: 92px;
+	color: #999999;
+	font-size: 14px;
 }
-/* section ul li:nth-child(1){
-	margin-top: 40px;
-} */
-section ul li .item_l img{
-	width: 223px;
-	height: 131px;
+section .breadcrumb span{
+	color: #000000;
+	font-weight: bold;
 }
-section ul li .item_r{
+section .detail_center{
+/* 	background-color: red; */
+	width: 100%;
+	padding-top: 30px;
+}
+section .detail_center p{
+	color: #666666;
+}
+section .detail_center .detail_info{
+	width: 814px;
+	height: auto;
+/* 	background-color: green; */
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 20px;
-}
-/* 翻页-css */
-section .fanye{
-	width: 100%;
-	height: 113px;
-	display: flex;
-	justify-content: center;
 	align-items: center;
 }
-section .fanye .fanye_list{
-	width: 408px;
+section .detail_center .detail_info p:nth-child(1){
+	color: #000000;
+	font-weight: bold;
+}
+section .detail_center .detail_info .info_3{
+	margin-top: 25px;
+	text-indent: 32px;
+}
+section .detail_center .detail_info .info_data{
+	color: #999999;
+	margin: 14px 0  96px 0;
+}
+section .detail_center .detail_info img{
+	margin:30px 0px;
+}
+section .detail_center .detail_info .info_content2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+section .detail_center .info_content2 p{
+	margin: 32px 0px;
+}
+section .article{
+	margin: 30px 0px;
+	font-weight: bold;
+}
+section .article_list_item{
 	display: flex;
 	justify-content: space-between;
 }
-section .fanye .fanye_list .fanye_item{
-	width: 32px;
-	height: 35px;
-	border: 1px solid #dddddd;
-	text-align: center;
-	line-height: 35px;
+section .article_list_item p{
+	margin-top: 3px;
+	font-size: 14px;
 }
-section .fanye .fanye_list .fanye_item a{
-	color: #999999;
-}
-section .fanye .fanye_list .fanye_item:nth-child(1){
-	border: 1px solid red;
-}
-section .fanye .fanye_list .fanye_item:nth-child(8){
-	width: 66px;
-}
-section .fanye .fanye_list .fanye_item:nth-child(9){
-	width: 66px;
+section .article_list{
+	width: 637px;
+	height: 153px;
 }
 /* footer start */
 footer{

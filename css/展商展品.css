@@ -89,70 +89,103 @@ header .header_nav ul li:hover ul{
 header .header_banner{
 	width: 100%;
 	height: 200px;
-	background-image: url(../img/banner.png);
+	background-image: url(../img/图层1.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 /* banner end */
-/* section start */	
+/* section start */
 section{
+	padding-bottom: 43px;
 	background-color: #f3f4f8;
-	padding-top: 40px;
 }
-section ul li{
-	width: 924px;
-	height: 131px;
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 16px;
+section .breadcrumb{
+	width: 100%;
+	height: 92px;
+	line-height: 92px;
+	color: #999999;
+	font-size: 14px;
+}
+section .breadcrumb span{
+	color: #000000;
+	font-weight: bold;
+}
+section .w .company{
+	width: 100%;
+	height: 278px;
 	background-color: #FFFFFF;
+	display: flex;
+	justify-content: flex-start;
 }
-/* section ul li:nth-child(1){
-	margin-top: 40px;
-} */
-section ul li .item_l img{
-	width: 223px;
-	height: 131px;
-}
-section ul li .item_r{
+section .w .company .company_logo{
+	width: 158px;
+	height: 278px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 20px;
-}
-/* 翻页-css */
-section .fanye{
-	width: 100%;
-	height: 113px;
-	display: flex;
-	justify-content: center;
 	align-items: center;
 }
-section .fanye .fanye_list{
-	width: 408px;
+section .w .company .company_info .company_title{
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+	margin-top: 44px;
+}
+section .w .company .company_logo img{
+	margin-top: 44px;
+}
+section .w .company .company_info .company_contact ul li{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 24px;
+}
+section .w .company .company_info .company_contact ul li .contact_title{
+	font-size: 16px;
+	width: 81px;
+	color: #494949;
+}
+section .w .company .company_info .company_contact ul li .contact_content{
+	width: 846px;
+	color: #8c8c8c;
+}
+section .table_title{
+	height: 76px;
+	font-weight: bold;
+	line-height: 76px;
+}
+section .w .table{
+	width: 1162px;
+	height: 605px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+section .table .table_line{
+	width: 100%;
+	height: 196px;
 	display: flex;
 	justify-content: space-between;
 }
-section .fanye .fanye_list .fanye_item{
-	width: 32px;
-	height: 35px;
-	border: 1px solid #dddddd;
-	text-align: center;
-	line-height: 35px;
+section .table .table_line .table_item{
+	width: 225px;
+	height: 196px;
+	background-color: #FFFFFF;
 }
-section .fanye .fanye_list .fanye_item a{
+section .table .table_line .table_item img{
+	width: 225px;
+	height: 136px;
+}
+section .table .table_line .table_item .production_title{
+	font-size: 14px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+section .table .table_line .table_item .table_info{
+	margin-top: 8px;
+	margin-left: 10px;
+	font-size: 12px;
 	color: #999999;
-}
-section .fanye .fanye_list .fanye_item:nth-child(1){
-	border: 1px solid red;
-}
-section .fanye .fanye_list .fanye_item:nth-child(8){
-	width: 66px;
-}
-section .fanye .fanye_list .fanye_item:nth-child(9){
-	width: 66px;
 }
 /* footer start */
 footer{

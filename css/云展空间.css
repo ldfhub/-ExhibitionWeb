@@ -89,70 +89,58 @@ header .header_nav ul li:hover ul{
 header .header_banner{
 	width: 100%;
 	height: 200px;
-	background-image: url(../img/banner.png);
+	background-image: url(../img/n12.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 /* banner end */
-/* section start */	
+/* section start */
 section{
+	padding: 43px 0px;
 	background-color: #f3f4f8;
-	padding-top: 40px;
 }
-section ul li{
-	width: 924px;
-	height: 131px;
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 16px;
-	background-color: #FFFFFF;
-}
-/* section ul li:nth-child(1){
-	margin-top: 40px;
-} */
-section ul li .item_l img{
-	width: 223px;
-	height: 131px;
-}
-section ul li .item_r{
+section #video_play{
+	margin: 0 auto;
+	height: 1108px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 20px;
+	justify-content: space-between;
 }
-/* 翻页-css */
-section .fanye{
-	width: 100%;
-	height: 113px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-section .fanye .fanye_list{
-	width: 408px;
+section #video_play .video_line1{
 	display: flex;
 	justify-content: space-between;
 }
-section .fanye .fanye_list .fanye_item{
-	width: 32px;
-	height: 35px;
-	border: 1px solid #dddddd;
+section #video_play .video_item{
+	width: 381px;
+	height: 543px;
+	box-shadow: #cacbce 0px 1px 3px 3px;
+}
+section #video_play .video_item .video_title{
+	width: 381px;
+	height: 50px;
+	background-color: #1c223a;
 	text-align: center;
-	line-height: 35px;
+	line-height: 50px;
 }
-section .fanye .fanye_list .fanye_item a{
-	color: #999999;
+section #video_play .video_item .video_info{
+	width: 342px;
+	height: 153px;
+	margin: 0 auto;
+	font-size: 10px;
+	line-height: 17px;
+	color: #7d7d7d;
 }
-section .fanye .fanye_list .fanye_item:nth-child(1){
-	border: 1px solid red;
-}
-section .fanye .fanye_list .fanye_item:nth-child(8){
-	width: 66px;
-}
-section .fanye .fanye_list .fanye_item:nth-child(9){
-	width: 66px;
+section #video_play .video_item .video_click{
+	width: 266px;
+	height: 47px;
+	background-color: red;
+	border-radius: 30px;
+	margin: 22px auto 40px;
+	line-height: 47px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
 }
 /* footer start */
 footer{
