@@ -71,7 +71,6 @@ header .header_nav ul .dropdown_1{
 	position: absolute;
 	top: 100%;
 	left: 0%;
-/* 	width: 100%; */
 	display: none; /* 二级菜单默认是不可见的 */
 	z-index: 1;
 }
@@ -92,7 +91,7 @@ header .header_banner{
 	height:502px;
 	background-position: center;
 	background-size: cover;
-	background-image: url(../img/banner.png);
+	background-image: url(../img/图层759.png);
 }
 /* banner end */
 /* header-css end*/
